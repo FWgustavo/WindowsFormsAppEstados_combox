@@ -150,6 +150,7 @@
             this.cboEstados.Name = "cboEstados";
             this.cboEstados.Size = new System.Drawing.Size(194, 32);
             this.cboEstados.TabIndex = 6;
+            this.cboEstados.SelectedIndexChanged += new System.EventHandler(this.cboEstados_SelectedIndexChanged);
             // 
             // cboNorte
             // 
@@ -159,6 +160,7 @@
             this.cboNorte.Name = "cboNorte";
             this.cboNorte.Size = new System.Drawing.Size(194, 32);
             this.cboNorte.TabIndex = 7;
+            this.cboNorte.SelectedIndexChanged += new System.EventHandler(this.cboNorte_SelectedIndexChanged);
             // 
             // cboNordeste
             // 
@@ -168,6 +170,7 @@
             this.cboNordeste.Name = "cboNordeste";
             this.cboNordeste.Size = new System.Drawing.Size(194, 32);
             this.cboNordeste.TabIndex = 8;
+            this.cboNordeste.SelectedIndexChanged += new System.EventHandler(this.cboNordeste_SelectedIndexChanged);
             // 
             // cboCentro
             // 
@@ -177,6 +180,7 @@
             this.cboCentro.Name = "cboCentro";
             this.cboCentro.Size = new System.Drawing.Size(194, 32);
             this.cboCentro.TabIndex = 9;
+            this.cboCentro.SelectedIndexChanged += new System.EventHandler(this.cboCentro_SelectedIndexChanged);
             // 
             // cboSudeste
             // 
@@ -186,6 +190,7 @@
             this.cboSudeste.Name = "cboSudeste";
             this.cboSudeste.Size = new System.Drawing.Size(194, 32);
             this.cboSudeste.TabIndex = 10;
+            this.cboSudeste.SelectedIndexChanged += new System.EventHandler(this.cboSudeste_SelectedIndexChanged);
             // 
             // cboSul
             // 
@@ -195,6 +200,7 @@
             this.cboSul.Name = "cboSul";
             this.cboSul.Size = new System.Drawing.Size(194, 32);
             this.cboSul.TabIndex = 11;
+            this.cboSul.SelectedIndexChanged += new System.EventHandler(this.cboSul_SelectedIndexChanged);
             // 
             // btnEstados
             // 
@@ -216,6 +222,7 @@
             this.btnNorte.TabIndex = 13;
             this.btnNorte.Text = "-";
             this.btnNorte.UseVisualStyleBackColor = true;
+            this.btnNorte.Click += new System.EventHandler(this.btnNorte_Click);
             // 
             // btnNordeste
             // 
@@ -226,6 +233,7 @@
             this.btnNordeste.TabIndex = 14;
             this.btnNordeste.Text = "-";
             this.btnNordeste.UseVisualStyleBackColor = true;
+            this.btnNordeste.Click += new System.EventHandler(this.btnNordeste_Click);
             // 
             // btnCentro
             // 
@@ -236,6 +244,7 @@
             this.btnCentro.TabIndex = 15;
             this.btnCentro.Text = "-";
             this.btnCentro.UseVisualStyleBackColor = true;
+            this.btnCentro.Click += new System.EventHandler(this.btnCentro_Click);
             // 
             // btnSudeste
             // 
@@ -246,6 +255,7 @@
             this.btnSudeste.TabIndex = 16;
             this.btnSudeste.Text = "-";
             this.btnSudeste.UseVisualStyleBackColor = true;
+            this.btnSudeste.Click += new System.EventHandler(this.btnSudeste_Click);
             // 
             // btnSul
             // 
@@ -256,6 +266,7 @@
             this.btnSul.TabIndex = 17;
             this.btnSul.Text = "-";
             this.btnSul.UseVisualStyleBackColor = true;
+            this.btnSul.Click += new System.EventHandler(this.btnSul_Click);
             // 
             // lblEstados
             // 
@@ -348,6 +359,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
